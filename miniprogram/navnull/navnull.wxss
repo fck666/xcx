@@ -1,0 +1,51 @@
+.custom{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 45px;
+  background: #ffffff;
+  z-index: 999;
+}
+
+.title-container {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.capsule {
+  margin-left: 10px;
+  height: 38px;
+  display: flex;
+  width: 50px;
+}
+
+.capsule > view {
+  width: 32px;
+  height: 60%;
+
+  position: relative;
+}
+.capsule image {
+  width: 15%;
+  height: 38px;
+  position: absolute;
+  left: 12%;
+  top: 80%;
+  transform: translate(-50%,-50%);
+}
+
+.title {
+  color: white;
+  position: absolute;
+  left: 104px;
+  right: 104px;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+

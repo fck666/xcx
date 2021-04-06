@@ -1,0 +1,17 @@
+<!--pages/study/study.wxml-->
+<navBar back bind:myevent="getclickback"></navBar>
+<view class='btnsize'>
+  <button hover-class='btn-hover'  bindtouchend='start'style="width: 375rpx; height: 375rpx;">{{timecount}}</button>
+</view>
+<view class='item'>
+  <image class='audio_post{{music_on?" music_on":"music_pause"}}'  style="animation-play-state:{{music_playing?'running':'paused'}}" src='/img/9.png' bindtap="playmusic" ></image>
+</view>
+<view class="buttonbox" style="position:fixed;">
+  <view class="extrabutton">
+  <button  class="{{showstopView?'hide':'show'}}" bindtap='stop'>暂停学习</button>
+  <button  class="{{showresumeView?'hide':'show'}}" bindtap='resume'>继续学习</button>
+</view>
+  <view class="quitimage">
+    <image src="/img/8.png" class="{{showresetView?'hide':'show'}}"  bindtap='Reset'></image><!--图片按下修改样式，暂时先这么写着-->
+  </view>
+</view>

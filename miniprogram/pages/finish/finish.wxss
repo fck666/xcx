@@ -1,0 +1,44 @@
+/* pages/finish/finish.wxss */
+page{
+  height: 99%;
+}
+.timeshow{
+  margin-top: 35%;
+  display: block;
+  height: 60%;
+  flex-direction: column;
+}
+.timeshow text{
+  text-align: center;
+  display: block;
+  font-size: 30px;
+}
+.textstyle{
+  margin-top: 10%;
+  display: block;
+  height: 70%;
+  flex-direction: column;
+}
+.textstyle text{
+  text-align: center;
+  display: block;
+  font-size: 25px;
+}
+.textgrey{
+  display: block;
+  height: 20%;
+  flex-direction: column;
+}
+.textgrey text{
+  text-align: center;
+  display: block;
+  font-size: 15px;
+}
+.textgrey image{
+  height: 61px;
+  display: block;
+  width: 60px;
+  margin-left: 43%;
+  margin-top: 10%;
+  border-radius: 50%;
+}

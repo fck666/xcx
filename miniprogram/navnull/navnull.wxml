@@ -1,0 +1,7 @@
+<view class="custom " style="padding-top:{{statusBarHeight}}px">
+  <view class='title-container'>
+    
+    <view class='title'>{{navigationBarTitle}}</view>
+  </view>
+</view>
+<view class="empty_custom" style="padding-top:{{statusBarHeight}}px"></view>

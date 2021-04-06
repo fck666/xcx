@@ -1,0 +1,43 @@
+/**index.wxss**/
+page{
+  height:100%;
+}
+.imagesize{
+display:flex;
+height: 80%;
+justify-content: center;
+align-items:center;
+
+}
+.imagesize image { 
+ width:400rpx;
+ height:400rpx;
+ border-radius: 50%;
+ }
+ .img-hover{
+  position: relative;
+  top: 3rpx;
+  box-shadow:0px 0px 8px #5c3c2b inset; 
+}
+.imageplace{
+  display:flex;
+}
+.imageplace image{
+  width:130rpx;
+  height:130rpx;
+  flex-direction: row-reverse;
+  border-radius: 50%;
+  float: left;
+  margin-left:  10%;
+}
+.textplace{
+  display:flex;
+}
+.textplace text{
+  width:40px;
+  height:60rpx;
+  flex-direction: row-reverse;
+  float: left;
+  margin-left:  13%;
+  font-size: 20px;
+}

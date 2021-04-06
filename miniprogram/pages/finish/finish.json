@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "navBar": "/navnull/navnull"
+  },
+  "navigationStyle": "custom"
+}

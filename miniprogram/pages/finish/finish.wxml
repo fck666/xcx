@@ -1,0 +1,14 @@
+<!--pages/finish/finish.wxml-->
+<navBar></navBar>
+<view class="timeshow">
+  <text>您本次的学习时长为</text>
+  <view class="textstyle">
+    <text>{{time}}</text>
+  </view>
+  <view class="textgrey">
+    <text>{{score}}</text>
+    <text>{{save}}</text>
+    <image src='/img/15.png' bindtap="close"></image>
+  </view>
+  
+</view>

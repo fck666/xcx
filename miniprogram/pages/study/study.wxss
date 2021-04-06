@@ -1,0 +1,93 @@
+/* pages/study/study.wxss */
+page{
+  height: 99%;
+}
+.btnsize{
+  display:flex;
+  height: 70%;
+  justify-content: center;
+  align-items:center;
+}
+.btnsize button{
+  background-color:#9d764d ;
+  border:4px solid #000000;
+  line-height:345rpx;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #000000; 
+}
+.btn-hover{
+  position: relative;
+  top: 3rpx;
+  box-shadow:0px 0px 8px #5c3c2b inset; 
+}
+
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+.item {
+  width: 20%;
+  height: 20%;
+  display: inline-flex;
+  padding-left: 8%;
+  padding-top: 20%;
+}
+.audio_post{
+  width:130rpx;
+  height:130rpx;
+  border-radius: 50%;
+}
+.buttonbox{
+  display: inline-flex;
+  width: 72%;
+  height: 20%;
+}
+ .extrabutton{
+   width: 50%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-top:28%;
+  padding-right: 8%;
+}
+.extrabutton button{
+  width:200rpx;
+  height:80rpx;
+  background-color:#9d764d ;
+  border:2px solid #000000;
+  border-radius: 10%;
+  font-size: 15px;
+  color: #000000; 
+}
+.quitimage{
+  width: 30%;
+  display:flex;
+  justify-items: right;
+  padding-top:28%;
+  padding-right: 8%;
+}
+.quitimage image{
+  width: 130rpx;
+  height:130rpx;
+  border-radius: 50%;
+}
+/* 旋转的样式 */
+.music_on{
+  animation: audio-rotate 8s linear infinite;
+}
+.music_pause{
+  animation:audio-rotate 0s linear infinite;
+}
+/* 旋转动画 */
+@keyframes audio-rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+ 
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

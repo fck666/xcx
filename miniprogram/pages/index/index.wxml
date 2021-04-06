@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="imagesize">
+        <image src="{{startimg}}" bindtouchstart="touchstart" bindtouchend="beginstudy"></image>
+</view>
+<view class="imageplace">
+        <image src='/img/10.png'bindtouchend='showranklist'></image><!-- TODO 建立榜单类-->
+</view>
+<view class="textplace">
+        <text>{{ranklist}}</text>
+</view>
