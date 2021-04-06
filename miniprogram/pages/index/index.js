@@ -40,5 +40,8 @@ Page({
       }
     })
     this.setData({startimg:'/img/4.png'})
+  },
+  showranklist(){
+    wx.navigateTo({url: '../ranklist/ranklist'});
   }
 })

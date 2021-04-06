@@ -4,7 +4,8 @@
     "pages/study/study",
     "pages/treehole/treehole",
     "pages/mine/mine",
-    "pages/finish/finish"
+    "pages/finish/finish",
+    "pages/ranklist/ranklist"
   ],
   "window":{
     "backgroundTextStyle":"light",

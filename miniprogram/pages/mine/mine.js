@@ -12,14 +12,15 @@ Page({
     iflog:''
   },
   // 事件处理函数
-  onLoad: function(options) {
+  onLoad: function() {
     if (wx.getUserProfile) {
       var self = this
       wx.cloud.callFunction({
       name: 'login',
       complete: res => {
-         var openid = res.openid
+         var openid = res.result.event.userInfo.openId
         this.setData({openId:openid})
+
         // 根据openid查询是否授权
         self.queryAuthByOpenid(openid)
       }
@@ -64,6 +65,13 @@ Page({
               iflog:1
             })
           }
+        },fail:(res)=>{
+          this.setData({
+            userInfo:{},
+            avatarUrl:'/img/头像.png',
+            name:'点击授权登录信息',
+            iflog:0
+          })
         }
       })
   },
