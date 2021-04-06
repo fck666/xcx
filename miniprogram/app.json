@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/study/study",
     "pages/treehole/treehole",
@@ -7,31 +7,34 @@
     "pages/finish/finish",
     "pages/ranklist/ranklist"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#9d764d",
     "navigationBarTitleText": "诲人不卷",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle": "black",
     "backgroundColorTop": "#9d764d"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "学习",
-      "iconPath":"img/1.jpg",
-      "selectedIconPath": "img/2.jpg"
-    }, {
-      "pagePath": "pages/treehole/treehole",
-      "text": "树洞",
-      "iconPath":"img/1.jpg",
-      "selectedIconPath": "img/2.jpg"
-    },
-    {
-      "pagePath": "pages/mine/mine",
-      "text": "我的",
-      "iconPath":"img/1.jpg",
-      "selectedIconPath": "img/2.jpg"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "学习",
+        "iconPath": "img/1.jpg",
+        "selectedIconPath": "img/2.jpg"
+      },
+      {
+        "pagePath": "pages/treehole/treehole",
+        "text": "树洞",
+        "iconPath": "img/1.jpg",
+        "selectedIconPath": "img/2.jpg"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "img/1.jpg",
+        "selectedIconPath": "img/2.jpg"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
